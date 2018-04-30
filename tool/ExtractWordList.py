@@ -12,11 +12,11 @@ for i, u in enumerate(user_list):
     for w in _word_list:
         print i, w[0].encode('utf-8'), w[1]
         if word_dict.has_key(w[0].encode('utf-8')):
-            word_dict[w[0].encode('utf-8')] += 1
+            word_dict[w[0].encode('utf-8')] += w[1]
         else:
-            word_dict[w[0].encode('utf-8')] = 1
+            word_dict[w[0].encode('utf-8')] = w[1]
 
-with open('../resource/word_list_new_count.json', 'w') as f:
-    for chunk in json.JSONEncoder().iterencode(word_dict):
+with open('../resource/word_list_simple_plus.json', 'w') as f:
+    for chunk in json.JSONEncoder(ensure_ascii=False).iterencode(word_dict):
         f.write(chunk)
     f.close()
