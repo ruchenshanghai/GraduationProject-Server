@@ -9,7 +9,7 @@ import json
 
 session = DBsession()
 userList = []
-STOP_WORD_LIST = [line.rstrip() for line in open('./resource/stop_word.txt')]
+STOP_WORD_LIST = [line.rstrip() for line in open('../resource/stop_word.txt')]
 # for user in session.query(User).all():
 for index, user in enumerate(session.query(User).all()):
     _temp_user = {}
@@ -43,7 +43,7 @@ session.close()
 # f = open('./resource/user_corpus_list.json', 'w')
 
 
-with open('./resource/user_corpus_list.json', 'w') as f:
+with open('../resource/user_corpus_list.json', 'w') as f:
     for chunk in json.JSONEncoder().iterencode(userList):
         f.write(chunk)
     f.close()

@@ -6,7 +6,7 @@ from model import ParsedUser
 import json
 
 
-f = open('./resource/user_corpus_list.json')
+f = open('../resource/user_corpus_list.json')
 txt = f.readline()
 user_list= json.loads(txt)
 print len(user_list)
