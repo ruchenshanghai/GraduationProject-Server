@@ -1,17 +1,19 @@
 # coding=utf-8
-
+from flask_cors import CORS
 from flask import Flask
 
 app = Flask(__name__)
+CORS(app, resources=r'/*')
 
 
 @app.route('/')
 def hello_world():
     return 'Hello World!'
 
+@app.route('/zhihu/word', methods=['POST'])
+def zhihu_word():
+    return 'zhihu word'
+
 
 if __name__ == '__main__':
-    test1 = 123
-    test2 = 'test'
-    print '%d %s' % (test1, test2)
-    app.run()
+    app.run(port=8081)
