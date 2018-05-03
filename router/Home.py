@@ -1,7 +1,9 @@
 
 from flask.ext.restful import reqparse, Resource
 
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 parser = reqparse.RequestParser()
 parser.add_argument('test', type=str)
