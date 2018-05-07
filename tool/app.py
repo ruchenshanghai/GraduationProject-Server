@@ -1,8 +1,6 @@
 # coding=utf-8
 
 from model.DBSession import DBsession
-from model.User import User
-from model.Url import Url
 import jieba
 import jieba.analyse
 import json

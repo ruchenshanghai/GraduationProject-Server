@@ -105,4 +105,3 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-resource/user_corpus_list.json

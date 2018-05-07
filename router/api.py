@@ -1,12 +1,12 @@
 from flask import Flask
-from flask.ext import restful
+import flask_restful
 from flask_cors import CORS
 
 from Home import Home
 from ZhihuAnswer import ZhihuAnswer
 
 app = Flask(__name__)
-api = restful.Api(app)
+api = flask_restful.Api(app)
 CORS(app, resources=r'/*')
 
 

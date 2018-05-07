@@ -2,7 +2,6 @@
 
 import json
 from model.DBSession import DBsession
-from model import ParsedWord
 
 
 # f = open('../resource/user_corpus_list.json')
@@ -23,16 +22,16 @@ from model import ParsedWord
 #         f.write(chunk)
 #     f.close()
 
-f = open('../resource/word_list_recount.json')
-txt = f.readline()
-word_list= json.loads(txt)
-session = DBsession()
-for index, word in enumerate(word_list):
-    _temp_key = word.encode('utf-8')
-    print '%d %s  %d' % (index, _temp_key, word_list[word])
-    _temp_parsed_word = ParsedWord(word=_temp_key, count=word_list[word])
-    session.add(_temp_parsed_word)
-session.commit()
-session.close()
-f.close()
-print 'ok'
+# f = open('../resource/word_list_recount.json')
+# txt = f.readline()
+# word_list= json.loads(txt)
+# session = DBsession()
+# for index, word in enumerate(word_list):
+#     _temp_key = word.encode('utf-8')
+#     print '%d %s  %d' % (index, _temp_key, word_list[word])
+#     _temp_parsed_word = ParsedWord(word=_temp_key, count=word_list[word])
+#     session.add(_temp_parsed_word)
+# session.commit()
+# session.close()
+# f.close()
+# print 'ok'

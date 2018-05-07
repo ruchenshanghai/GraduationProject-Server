@@ -1,0 +1,26 @@
+[
+  {
+    "school": 0,
+    "name": "淮安",
+    "business": 0,
+    "introduction": "",
+    "company": 0,
+    "major": 0,
+    "job": 0,
+    "avatar_url": "https://pic2.zhimg.com/v2-3660ddc7650bd66f12b6756ce87d3e9d_is.jpg",
+    "location": 6,
+    "id": 19749681
+  },
+  {
+    "school": 15,
+    "name": "电影",
+    "business": 0,
+    "introduction": "电影是一种视听媒介，利用胶卷、录像带或数位媒体将影像和声音捕捉，再加上后期的编辑工作而成。",
+    "company": 72,
+    "major": 1,
+    "job": 0,
+    "avatar_url": "https://pic3.zhimg.com/7d8c15df29ce6900c80f9cf630992687_is.jpg",
+    "location": 0,
+    "id": 19550429
+  }
+]

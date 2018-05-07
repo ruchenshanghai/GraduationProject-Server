@@ -1,5 +1,5 @@
 
-from flask.ext.restful import reqparse, Resource
+from flask_restful import reqparse, Resource
 
 import sys
 reload(sys)
