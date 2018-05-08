@@ -1,0 +1,106 @@
+{
+  "answer_count": 2906,
+  "answer_list": [],
+  "articles_count": 52,
+  "avatar_url": "https://pic2.zhimg.com/5f7358054_is.jpg",
+  "best_answerer": "[19551450, 19550434]",
+  "best_list": [
+    {
+      "avatar_url": "https://pic1.zhimg.com/v2-232eb7493e98bc4d142d6b33b0b38bd8_is.jpg",
+      "business": 211,
+      "company": 0,
+      "id": 19551450,
+      "introduction": "博物馆（museum）是一个为社会及其发展服务的、向公众开放的非营利性常设机构，为研究、教育和欣赏的目的征集、保护、研究、传播并展出人类及人类环境的物质及非物质遗产。<i>——国际博物馆协会对博物馆的定义，2007年（据法文版译出）</i>",
+      "job": 0,
+      "location": 0,
+      "major": 0,
+      "name": "博物馆",
+      "school": 0
+    },
+    {
+      "avatar_url": "https://pic3.zhimg.com/eab85c3ad_is.jpg",
+      "business": 0,
+      "company": 0,
+      "id": 19550434,
+      "introduction": "艺术迄今依旧没有公认的定义，目前广义的艺术乃是由具有智能思考能力的动物，透过各种形式及工具以表达其情感与意识，因而产生的结果。艺术不只存在于人类社会中，也存在于其他相对高等的动物社群中。",
+      "job": 0,
+      "location": 0,
+      "major": 0,
+      "name": "艺术",
+      "school": 3
+    }
+  ],
+  "business": {
+    "avatar_url": "https://pic1.zhimg.com/v2-232eb7493e98bc4d142d6b33b0b38bd8_is.jpg",
+    "business": 211,
+    "company": 0,
+    "id": 19551450,
+    "introduction": "博物馆（museum）是一个为社会及其发展服务的、向公众开放的非营利性常设机构，为研究、教育和欣赏的目的征集、保护、研究、传播并展出人类及人类环境的物质及非物质遗产。<i>——国际博物馆协会对博物馆的定义，2007年（据法文版译出）</i>",
+    "job": 0,
+    "location": 0,
+    "major": 0,
+    "name": "博物馆",
+    "school": 0
+  },
+  "business_id": 19551450,
+  "company_list": [],
+  "educations": "[{\"school_id\":19606307,\"major_id\":19953092}]",
+  "employments": "[{\"company_id\":0,\"job_id\":19556630}]",
+  "follower_count": 63696,
+  "following_count": 323,
+  "gender": true,
+  "headline": "博物馆学民科",
+  "id": "85df9dddd56d4056a6cdc045208bce66",
+  "identity": "",
+  "is_advertiser": false,
+  "is_org": false,
+  "job_list": [
+    {
+      "avatar_url": "https://pic4.zhimg.com/041547104_is.jpg",
+      "business": 0,
+      "company": 0,
+      "id": 19556630,
+      "introduction": "是一种工作，也是一类职业身分，指为各种媒体（以出版物为主）在出版前进行的后期制作，包括文字、图像、录音、录像、多媒体生成处理，和制作审核、校对的一项工序。",
+      "job": 132,
+      "location": 0,
+      "major": 0,
+      "name": "编辑",
+      "school": 0
+    }
+  ],
+  "location_list": [],
+  "locations": "[0]",
+  "major_list": [
+    {
+      "avatar_url": "https://pic4.zhimg.com/e82bab09c_is.jpg",
+      "business": 0,
+      "company": 0,
+      "id": 19953092,
+      "introduction": "",
+      "job": 0,
+      "location": 0,
+      "major": 0,
+      "name": "博物馆学",
+      "school": 36
+    }
+  ],
+  "name": "螺旋真理",
+  "question_count": 6,
+  "school_list": [
+    {
+      "avatar_url": "https://pic1.zhimg.com/v2-b2d816436d47e21e6c2d817f26703c5a_is.jpg",
+      "business": 0,
+      "company": 0,
+      "id": 19606307,
+      "introduction": "      南开大学是国家教育部直属重点综合性大学，是敬爱的周恩来总理的母校。<br> 　　南开大学创建于1919年，创办人是近代著名爱国教育家张伯苓和严修。抗日战争时期，南开大学与北京大学、清华大学在昆明组成举世闻名的西南联合大学，被誉为“学府北辰”。南开大学秉承“允公允能、日新月异”的校训，弘扬“爱国、敬业、创新、乐群”的光荣传统，培养了以周恩来、陈省身、吴大猷、曹禺等为代表的一大批杰出人才，为民族振兴和国家富强做出了重要贡献。新世纪新阶段，南开大学获得教育部和天津市重点共建支持，跻身21世纪国家重点建设大学行列。<br><br>来源：<a href=\"http://www.nankai.edu.cn/index.php?content=aboutnankai&amp;type=1\" data-editable=\"true\" data-title=\"南开大学\">南开大学</a>",
+      "job": 2,
+      "location": 0,
+      "major": 0,
+      "name": "南开大学",
+      "school": 268
+    }
+  ],
+  "thanked_count": 35473,
+  "user_token": "luo-xuan-zhen-li",
+  "voteup_count": 207644
+}

@@ -17,10 +17,10 @@ class ZhihuAnswer(Resource):
 
     def post(self):
         args = parser.parse_args()
-        _parse_count = args['keyword_count']
+        _parsed_count = args['keyword_count']
         if args['txt']:
-            _parse_txt = args['txt']
-            _res_result = extract_topic(_parse_txt, _parse_count)
+            _parsed_txt = args['txt']
+            _res_result = extract_topic(_parsed_txt, _parsed_count)
             return _res_result
         else:
             return {'status': False}, 200

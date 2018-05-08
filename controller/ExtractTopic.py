@@ -48,3 +48,4 @@ def get_topic_by_id(id):
     if target_topic:
         return target_topic.as_dict()
     return None
+
