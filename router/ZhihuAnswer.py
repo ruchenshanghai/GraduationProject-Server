@@ -1,11 +1,7 @@
 from flask_restful import reqparse, Resource
-import json
-import jieba
-import jieba.analyse
-from tool.ExtractTopic import extract_topic
+from controller.ExtractTopic import extract_topic
 
 import sys
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -21,8 +17,6 @@ class ZhihuAnswer(Resource):
 
     def post(self):
         args = parser.parse_args()
-        _parse_count = 10
-        _parse_txt = None
         _parse_count = args['keyword_count']
         if args['txt']:
             _parse_txt = args['txt']
